@@ -1,0 +1,72 @@
+ @charset "utf-8";
+/* CSS Document */
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/montserrat-bold-webfont.eot");
+  src: url("../fonts/montserrat-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/montserrat-bold-webfont.woff2") format("woff2"), url("../fonts/montserrat-bold-webfont.woff") format("woff"), url("../fonts/montserrat-bold-webfont.ttf") format("truetype");
+unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: padding-box;
+}
+
+.clear {
+    clear: both;
+}
+
+html, body {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: black;
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 100px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+#slotMachineWrapper {
+	width: 100%;
+    height: 100%;
+	position: relative;
+}
+
+.slotMachineFrame {
+    border: 9px solid white;
+    width: 800px;
+    height: 130px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.center-y {
+  position: absolute;
+  top: 50%;
+  height: auto;
+  transform: translateY(-50%);
+  width: 100%
+}
+
+#slotMachine {
+    margin-top: 20px;
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+	display: inline-block;
+}
+
+#slotMachine div {
+    padding: 20px 0;
+}

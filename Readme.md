@@ -1,13 +1,12 @@
-Readme.md
-
-![Arduino Slot Machine](https://github.com/denbue/slot-machine/raw/master/documentation/slot-machine.gif “Arduino Slot Machine“)
+![Arduino Slot Machine](https://github.com/denbue/Arduino-Slot-Machine/raw/master/documentation/slot-machine.gif “Arduino Slot Machine“)
 
 # Simple Arduino Slot Machine
 
 **The Button is back!** This time it is connected to a simple browser-based slot machine. 
 
 ## The hardware
-Follow step 1-6 of the instruction to build your own Arduino Staples button here: https://github.com/denbue/The-Real-90s-Button.
+### Step 1-6
+Follow the instruction to build your own Arduino Staples button here: https://github.com/denbue/The-Real-90s-Button.
 
 ## The software
 

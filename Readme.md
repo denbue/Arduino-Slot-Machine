@@ -1,4 +1,4 @@
-![Arduino Slot Machine](https://github.com/denbue/Arduino-Slot-Machine/raw/master/documentation/slot-machine.gif “Arduino Slot Machine“)
+![Arduino Slot Machine](https://github.com/denbue/Arduino-Slot-Machine/raw/master/documentation/slot-machine.gif)
 
 # Simple Arduino Slot Machine
 
